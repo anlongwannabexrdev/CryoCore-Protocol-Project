@@ -1,4 +1,4 @@
-# ModelDesign Branch
+# Idea&Design Branch
 
 ## Description
 
