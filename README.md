@@ -29,7 +29,7 @@ git clone https://github.com/anlongvrdev/CryoCore-Protocol-Project.git
 ```
 2. **Switch to the ModelDesign branch: If you're not already on this branch, run**:
 ```cmd
-git checkout Idea&Design
+git checkout "Idea&Design"
 ```
 3. **Add or modify models: Add new model concepts or modify existing ones. Each type of model (e.g., characters, weapons, spaceships, environments) should be placed in its relevant folder.**
 
@@ -43,7 +43,7 @@ git commit -m "Added new idea design "
 ```
 5. **Push your changes: Push your changes to the remote repository**:
 ```cmd
-git push origin Idea&Design
+git push origin "Idea&Design"
 ```
 
 ### Contribution Guidelines
