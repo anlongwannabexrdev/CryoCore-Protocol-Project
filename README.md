@@ -2,11 +2,11 @@
 
 ## Description
 
-The `ModelDesign` branch is dedicated to storing and managing all design concepts and models related to the project. This branch serves as a repository for character models, weapon designs, spaceship models, and environmental concepts. It is used to organize, track, and share initial ideas, sketches, and prototypes for 3D models, ensuring a collaborative space for all creative and design-related tasks before they are finalized and implemented into the main project.
+The `Idea&Design` branch is dedicated to storing and managing all design concepts and models related to the project. This branch serves as a repository for character models, weapon designs, spaceship models, and environmental concepts. It is used to organize, track, and share initial ideas, sketches, and prototypes for 3D models, ensuring a collaborative space for all creative and design-related tasks before they are finalized and implemented into the main project.
 
 ## Purpose
 
-The purpose of the `ModelDesign` branch is to:
+The purpose of the `Idea&Design` branch is to:
 - Provide a central location for all project-related model design concepts.
 - Allow team members to contribute, collaborate, and iterate on visual aspects of the project.
 - Keep track of evolving designs, ensuring that they are well-organized and easy to reference.
