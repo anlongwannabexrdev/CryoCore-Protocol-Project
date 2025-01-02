@@ -48,3 +48,5 @@
 
 - **Kết nối cảm xúc**: NPC có thể xây dựng mối quan hệ với người chơi, tạo nên những khoảnh khắc cảm xúc, chẳng hạn như hy sinh vì người chơi hoặc đưa ra những lời khuyên quan trọng.
 - **Hội thoại đa nhánh**: Người chơi có thể chọn lựa đối thoại, ảnh hưởng đến cách NPC hành xử hoặc mở ra cốt truyện mới.
+
+[[NPC Design]]
