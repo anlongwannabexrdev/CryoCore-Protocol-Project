@@ -25,7 +25,7 @@ To access and use the repository, follow these steps:
 
 1. **Clone the repository**:
 ```cmd
-git clone https://github.com/anlongvrdev/CryoCore-Protocol-Project.git
+git clone https://github.com/anlongwannabexrdev/CryoCore-Protocol-Project.git
 ```
 2. **Switch to the ModelDesign branch: If you're not already on this branch, run**:
 ```cmd
