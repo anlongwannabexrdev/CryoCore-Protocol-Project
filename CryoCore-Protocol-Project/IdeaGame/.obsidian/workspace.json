@@ -55,16 +55,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NPC Design.md",
+                "file": "Design Idea/Game VR SCi-fi, Adventure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NPC Design"
+              "title": "Game VR SCi-fi, Adventure"
+            }
+          },
+          {
+            "id": "9abe1aa64cde2680",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Idea/Game VR SCi-fi, Adventure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Game VR SCi-fi, Adventure"
+            }
+          },
+          {
+            "id": "a2ef387a67a3f176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Idea/Quest.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Quest"
+            }
+          },
+          {
+            "id": "437260e5f2153cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Idea/Dialog System.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dialog System"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "072cf17affa9c1a1",
@@ -76,7 +118,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "NPC Design.md",
+                "file": "Design Idea/Dialog System.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -92,19 +134,19 @@
                   "collapse-display": false,
                   "showArrow": true,
                   "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1.01875,
-                  "lineSizeMultiplier": 1,
+                  "nodeSizeMultiplier": 0.996518518518519,
+                  "lineSizeMultiplier": 3.4937037037037,
                   "collapse-forces": false,
                   "centerStrength": 0.208333333333333,
-                  "repelStrength": 5,
+                  "repelStrength": 9.40740740740741,
                   "linkStrength": 1,
-                  "linkDistance": 182,
-                  "scale": 1.0000000000000049,
+                  "linkDistance": 122,
+                  "scale": 1.4019828977761093,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of NPC Design"
+              "title": "Graph of Dialog System"
             }
           }
         ]
@@ -245,36 +287,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97af7963d1cd0fae",
+  "active": "437260e5f2153cc2",
   "lastOpenFiles": [
-    "NPC.md",
-    "NPC Design.md",
-    "Quest.md",
-    "Spaceship.md",
-    "Support Items.md",
-    "Plot.md",
-    "Swords.md",
-    "Player.md",
-    "Monsters.md",
-    "Guns.md",
-    "Weapons Properties.md",
-    "Equipments.md",
-    "Weapons.md",
-    "Gold.md",
-    "Universe.md",
-    "Durability.md",
-    "Spaceship-Design.md",
-    "Boss.md",
-    "Game VR SCi-fi, Adventure.md",
+    "Design Idea/Quest System.md",
+    "Design Idea/Dialog System.md",
+    "Design Idea/Spaceship.md",
+    "Design Idea/Durability.md",
+    "Design Idea",
+    "Design Idea/Plot.md",
+    "Design Idea/Concept Maps.md",
+    "Design Idea/Universe.md",
+    "Design Idea/Spaceship-Design.md",
+    "Design Idea/NPC Design.md",
+    "Design Idea/Support Items.md",
+    "Design Idea/Quest.md",
+    "Image/Pasted image 20250104152528.png",
+    "Image",
+    "Image/Pasted image 20250104152626.png",
+    "Image/Pasted image 20250104152614.png",
+    "Image/Pasted image 20250104152602.png",
+    "Image/Pasted image 20250104152551.png",
+    "Image/Pasted image 20250104152532.png",
+    "Design Idea/Game VR SCi-fi, Adventure.md",
+    "Design Idea/Boss.md",
+    "Design Idea/Monsters.md",
+    "Design Idea/NPC.md",
+    "Design Idea/Swords.md",
+    "Design Idea/Player.md",
+    "Design Idea/Guns.md",
+    "Design Idea/Weapons Properties.md",
+    "Design Idea/Equipments.md",
+    "Design Idea/Weapons.md",
+    "Design Idea/Gold.md",
     "Universe-Design.md",
     "Cấp Độ.md",
     "Pasted image 20241208214144.png.md",
-    "Pasted image 20241208212142.png.md",
-    "Untitled",
     "Untitled.canvas",
-    "Khiên.md",
-    "2024-12-04.md",
-    "kĩ năng.md",
     "Untitled 1.canvas"
   ]
 }

@@ -21,3 +21,5 @@
 - **AI tương tác**: Các NPC sẽ không chỉ giao nhiệm vụ mà còn giúp người chơi trong các tình huống chiến đấu khó khăn, làm cho game trở nên sống động và dễ tiếp cận hơn.
 - **Nâng cấp NPC**: Một số NPC có thể được nâng cấp thông qua việc hoàn thành nhiệm vụ hoặc thu thập tài nguyên, tạo ra sự phát triển liên tục trong mối quan hệ giữa người chơi và NPC.
 - **Phát triển chiến thuật**: Các nhiệm vụ phụ không chỉ giúp người chơi farm tài nguyên mà còn giúp họ học hỏi chiến thuật chiến đấu, khuyến khích người chơi phát triển chiến lược riêng của mình.
+
+- Hệ thống **[[Quest System]]**
