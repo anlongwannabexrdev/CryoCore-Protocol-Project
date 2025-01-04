@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Idea/Dialog System.md",
+                "file": "Design Idea/Boss.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dialog System"
+              "title": "Boss"
             }
           }
         ],
@@ -118,7 +118,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Design Idea/Dialog System.md",
+                "file": "Design Idea/Boss.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Dialog System"
+              "title": "Graph of Boss"
             }
           }
         ]
@@ -289,18 +289,22 @@
   },
   "active": "437260e5f2153cc2",
   "lastOpenFiles": [
-    "Design Idea/Quest System.md",
+    "Design Idea/Monsters.md",
+    "Design Idea/Gold.md",
+    "Design Idea/Equipments.md",
+    "Design Idea/Spaceship-Design.md",
+    "Design Idea/NPC Design.md",
+    "Design Idea/Concept Maps.md",
+    "Design Idea/Boss.md",
+    "Design Idea/Quest.md",
     "Design Idea/Dialog System.md",
+    "Design Idea/Quest System.md",
     "Design Idea/Spaceship.md",
     "Design Idea/Durability.md",
     "Design Idea",
     "Design Idea/Plot.md",
-    "Design Idea/Concept Maps.md",
     "Design Idea/Universe.md",
-    "Design Idea/Spaceship-Design.md",
-    "Design Idea/NPC Design.md",
     "Design Idea/Support Items.md",
-    "Design Idea/Quest.md",
     "Image/Pasted image 20250104152528.png",
     "Image",
     "Image/Pasted image 20250104152626.png",
@@ -309,16 +313,12 @@
     "Image/Pasted image 20250104152551.png",
     "Image/Pasted image 20250104152532.png",
     "Design Idea/Game VR SCi-fi, Adventure.md",
-    "Design Idea/Boss.md",
-    "Design Idea/Monsters.md",
     "Design Idea/NPC.md",
     "Design Idea/Swords.md",
     "Design Idea/Player.md",
     "Design Idea/Guns.md",
     "Design Idea/Weapons Properties.md",
-    "Design Idea/Equipments.md",
     "Design Idea/Weapons.md",
-    "Design Idea/Gold.md",
     "Universe-Design.md",
     "Cấp Độ.md",
     "Pasted image 20241208214144.png.md",
