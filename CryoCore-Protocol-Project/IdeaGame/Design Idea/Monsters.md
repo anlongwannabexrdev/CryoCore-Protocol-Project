@@ -121,7 +121,6 @@ Mỗi loại quái sẽ có bảng loot riêng, xác định các vật phẩm m
     - **Máu**: Cao.
     - **Giáp**: Trung bình, có khả năng chịu đựng nhiều đòn tấn công.
 
-4o mini
 
 ### **4. Hành Vi và Trí Tuệ của Quái Vật**
 

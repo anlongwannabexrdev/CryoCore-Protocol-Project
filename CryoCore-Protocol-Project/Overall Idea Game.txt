@@ -1,0 +1,41 @@
+1. Ưu Điểm:
+Phân loại rõ ràng:
+Sơ đồ thể hiện các yếu tố cốt lõi của game như Plot (Cốt truyện), Gameplay, Quest System, Weapons, và Boss Loot Table rất rõ ràng, tạo nền tảng tốt để phát triển từng phần chi tiết hơn.
+
+Cân bằng giữa yếu tố cốt truyện và trải nghiệm người chơi:
+Việc kết hợp không gian mở (Universe), Spaceship, và concept map giúp game có tính mở rộng cao và tạo cảm giác khám phá cho người chơi.
+
+Hướng phát triển đa dạng:
+Bao gồm các yếu tố như Dialog System, Multiplayer (trong tương lai) và hệ thống loot từ boss. Điều này cho thấy bạn đã định hướng game không chỉ đơn thuần tập trung vào chiến đấu mà còn nâng cao chiều sâu.
+
+Nhấn mạnh vào trải nghiệm nâng cấp:
+Hệ thống Weapons, Equipments, và Durability liên quan trực tiếp đến việc nâng cấp và phát triển nhân vật, phù hợp với yếu tố leveling mà bạn đã đề cập.
+
+2. Điểm Cần Cải Thiện:
+Tập trung phát triển thêm NPC:
+Phần Dialog System và NPC Design có thể được mở rộng hơn. Bạn cần mô tả vai trò của NPC: là người cung cấp nhiệm vụ, đồng minh hỗ trợ, hay kẻ thù phụ.
+
+Rõ ràng hơn về Spaceship:
+Spaceship xuất hiện trong sơ đồ nhưng chưa rõ ràng vai trò của nó. Nó là phương tiện di chuyển, cơ sở nâng cấp, hay mang tính chiến đấu? Bạn cần xác định rõ để tối ưu hóa trải nghiệm.
+
+Chi tiết hơn về Loot Table:
+Dù đã có Loot Table cho boss, bạn có thể phân loại cụ thể hơn theo cấp độ boss hoặc độ hiếm của vật phẩm (Common, Rare, Epic, Legendary).
+
+Thiếu hệ thống kỹ năng nhân vật:
+Bên cạnh Weapons và Equipments, bạn có thể thêm nhánh mới về Skill Tree hoặc kỹ năng đặc biệt để làm đa dạng gameplay.
+
+Tương tác với môi trường:
+Game có yếu tố Sci-Fi và Universe mở, nên cân nhắc thêm về tương tác với môi trường (ví dụ: giải câu đố không gian, khám phá bí mật qua tàu vũ trụ).
+
+3. Gợi Ý Phát Triển:
+Thêm nhánh "Leveling System":
+Sơ đồ cần có một nhánh dành riêng cho Leveling System, mô tả cách người chơi tích lũy kinh nghiệm (XP), nhận phần thưởng, và mở khóa các tính năng mới.
+
+Boss và Quest kết nối cốt truyện:
+Nhiệm vụ và boss nên có liên hệ chặt chẽ với cốt truyện, chẳng hạn như một số boss giữ chìa khóa để mở ra khu vực mới hoặc dữ liệu liên quan đến Horizon Bio Synthetik.
+
+Tăng chiều sâu cho Multiplayer:
+Vì Multiplayer là kế hoạch trong tương lai, bạn nên xác định trước cơ chế sẽ là Co-op (hỗ trợ cùng chơi) hay PvP (đối kháng giữa người chơi).
+
+Cân nhắc hệ thống craft:
+Ngoài loot từ boss, có thể cho phép người chơi tự chế tạo vật phẩm hoặc nâng cấp chúng bằng cách sử dụng nguyên liệu tìm thấy trong không gian.

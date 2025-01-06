@@ -168,3 +168,5 @@
 - **Yêu cầu cấp độ**: **80+**
     - Revenant yêu cầu người chơi phải thông thạo kỹ năng né tránh và phản đòn, vì các đòn tấn công của nó rất nhanh và nguy hiểm. Cần cả sát thương vật lý lẫn năng lượng để khắc chế.
     - **Khuyến nghị**: Kỹ năng cận chiến mạnh, giáp tốc độ và công cụ hỗ trợ phá hủy đám đông (ví dụ: flash grenade).
+
+# [[Boss Loot Table]] 
