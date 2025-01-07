@@ -56,4 +56,4 @@ Với mỗi cấp độ vũ khí, người chơi sẽ cảm nhận được sự
 - **Nâng cấp và Thu Thập**: Các vũ khí có thể nâng cấp hoặc cải thiện qua quá trình chiến đấu, hoàn thành nhiệm vụ hoặc khám phá.
 - **Khám Phá Tàu Không Gian**: Người chơi có thể tìm thấy các vũ khí và trang bị từ các tàu không gian bị bỏ hoang, các căn cứ bị xâm chiếm, hoặc từ các đồng đội trong game.
 - **Tương tác với Cốt Truyện**: Việc lựa chọn và sử dụng vũ khí sẽ ảnh hưởng đến tiến trình cốt truyện và những lựa chọn của người chơi, tạo ra sự đa dạng trong trải nghiệm game.
-#### Note: Mỗi loại súng có [[Weapons Properties]] riêng
+#### Note: Mỗi loại kiếm có [[Weapons Properties]] riêng

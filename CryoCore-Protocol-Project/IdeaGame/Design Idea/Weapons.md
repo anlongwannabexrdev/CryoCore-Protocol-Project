@@ -10,3 +10,4 @@
     - **Lợi ích**: Súng cho phép người chơi chiến đấu từ khoảng cách xa, giúp giảm thiểu nguy cơ bị tấn công trực tiếp và hỗ trợ trong việc tấn công các mục tiêu di chuyển nhanh hoặc ở xa.
 
 #### Note: Các vũ khí đều có [[Durability]]
+#### Dựa trên 3 cốt truyện sẽ có 1 [[Weapons system for per ending]] cho mỗi ending
