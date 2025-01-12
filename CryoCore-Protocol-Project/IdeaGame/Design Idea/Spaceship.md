@@ -8,7 +8,7 @@
 - **Mô tả**: Tàu có thể **di chuyển qua lại** trong không gian, tạo cảm giác **sống động** cho môi trường, hoặc xuất hiện như **một phông nền** trong các phân cảnh hành động.
 - **Ứng dụng**: Trong khi người chơi đang khám phá hành tinh hoặc di chuyển trong không gian, tàu có thể xuất hiện **lướt qua** hoặc **lơ lửng** ở phía xa, tạo cảm giác cho người chơi rằng thế giới của họ rộng lớn và có nhiều điều đang diễn ra.
 
-### **3. Tàu không gian như một **mini-game** hoặc nhiệm vụ phụ**
+### **3. Tàu không gian như một "mini-game" hoặc nhiệm vụ phụ**
 
 - **Mô tả**: Tạo một nhiệm vụ đơn giản liên quan đến tàu không gian, chẳng hạn như **thu thập tài nguyên** từ không gian hoặc **giải cứu phi hành đoàn** trên một tàu bị mất liên lạc.
 - **Ứng dụng**: Người chơi có thể hoàn thành các nhiệm vụ đơn giản này trong khi khám phá cốt truyện chính mà không cần quá nhiều yếu tố phức tạp.

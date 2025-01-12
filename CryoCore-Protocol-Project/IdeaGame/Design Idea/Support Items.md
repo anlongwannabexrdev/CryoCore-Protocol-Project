@@ -26,7 +26,7 @@ Nhóm công cụ này tập trung vào việc tăng cường khả năng tấn c
 
 Nhóm này giúp người chơi tăng khả năng sống sót thông qua việc phòng thủ và phục hồi năng lượng. Bao gồm:
 
-- **Khiên:**
+- **Khiên (suy nghĩ xem nên có thể thêm vào game hay không):**
     - **Khiên kim loại:** Chống lại các đòn tấn công vật lý như súng đạn, mảnh bom, và vật thể khác.
     - **Khiên năng lượng (trong suốt):** Hiệu quả với các đòn tấn công năng lượng như laser, plasma, sóng xung kích.
         - **Loại cầm tay:** Linh hoạt và dễ sử dụng trong chiến đấu.
