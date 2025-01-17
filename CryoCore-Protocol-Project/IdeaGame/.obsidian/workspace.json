@@ -6,7 +6,7 @@
       {
         "id": "d0fbf8ac7454cf7a",
         "type": "tabs",
-        "dimension": 55.86206896551724,
+        "dimension": 56.17701290719115,
         "children": [
           {
             "id": "d4475badb6636949",
@@ -27,7 +27,7 @@
       {
         "id": "072cf17affa9c1a1",
         "type": "tabs",
-        "dimension": 44.13793103448276,
+        "dimension": 43.82298709280885,
         "children": [
           {
             "id": "598d77b93f4c331c",
@@ -58,7 +58,7 @@
                   "repelStrength": 9.40740740740741,
                   "linkStrength": 1,
                   "linkDistance": 122,
-                  "scale": 0.7156896081460683,
+                  "scale": 0.7156896081460702,
                   "close": true
                 }
               },
@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.49999618530273
+    "width": 214.5,
+    "collapsed": true
   },
   "right": {
     "id": "1b635736dd57c882",
@@ -204,34 +205,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "598d77b93f4c331c",
+  "active": "d4475badb6636949",
   "lastOpenFiles": [
     "Design Idea/NPC.md",
     "Number of NPC.md",
+    "Design Idea/Weapons system for per ending.md",
+    "Design Idea/Weapons Properties.md",
+    "Design Idea/Weapons.md",
+    "Design Idea/Game VR SCi-fi, Adventure.md",
+    "Design Idea/Concept Maps.md",
     "Design Idea/Dialog System.md",
     "Design Idea/Equipments.md",
     "Design Idea/Support Items.md",
-    "Design Idea/Weapons.md",
     "Design Idea/Swords.md",
     "Design Idea/Guns.md",
-    "Design Idea/Game VR SCi-fi, Adventure.md",
     "Design Idea/Standard Quest System.md",
     "Design Idea/Quest System.md",
     "Design Idea/Plot.md",
     "Design Idea/Ending.md",
     "Design Idea/Boss.md",
-    "Design Idea/Concept Maps.md",
     "Design Idea/Gameplay.md",
     "Design Idea/Quest.md",
     "Design Idea/Boss Loot Table.md",
-    "Design Idea/Weapons system for per ending.md",
     "Design Idea/Puzzle Quest System.md",
     "Design Idea/Multiplayer (In Future).md",
     "Design Idea/Spaceship-Design.md",
     "Design Idea/Universe.md",
     "Design Idea/Player Experience.md",
     "Design Idea/SoundTrack.md",
-    "Design Idea/Spaceship.md",
     "Design Idea",
     "Image/Pasted image 20250104152528.png",
     "Image",

@@ -132,4 +132,4 @@
 
 - **NPC chính và phụ (có đối thoại quan trọng)**: 15-20 NPC.
 - **NPC phản diện và hỗ trợ chiến đấu**: 10-20 NPC.
-- **Tổng số ước lượng:** Khoảng **25-40 NPC** tùy vào độ chi tiết và số lượng nhiệm vụ phụ bạn muốn thêm vào.
+- **Tổng số ước lượng:** Khoảng **25-40 NPC** tùy vào độ chi tiết và số lượng nhiệm vụ phụ muốn thêm vào.
