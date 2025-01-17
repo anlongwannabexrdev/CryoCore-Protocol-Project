@@ -50,3 +50,4 @@
 - **Hội thoại đa nhánh**: Người chơi có thể chọn lựa đối thoại, ảnh hưởng đến cách NPC hành xử hoặc mở ra cốt truyện mới.
 
 [[NPC Design]]
+[[Number of NPC]]

@@ -1,6 +1,6 @@
 ### **1. Loại Dialog System**
 
-#### a. **Branching Dialog System (Hệ thống hội thoại phân nhánh)**
+#### a. **Branching Dialog System (Hệ thống hội thoại phân nhánh)** (Ưu tiên lựa chọn này)
 
 Người chơi có thể chọn các tùy chọn khác nhau trong hội thoại, dẫn đến các phản hồi hoặc kết quả khác nhau. Điều này phù hợp để:
 
