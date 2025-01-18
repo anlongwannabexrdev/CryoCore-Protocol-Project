@@ -1,0 +1,35 @@
+@startuml
+
+class UIManager {
+    + void InitializeUI()
+    + void UpdateUI()
+    + void ShowUIElement(string elementID)
+    + void HideUIElement(string elementID)
+    + void RegisterUIEvent(string elementID, Action eventCallback)
+}
+
+class UIElement {
+    + string elementID
+    + string elementType // "Button", "Panel", "Slider", "Text"
+    + bool isVisible
+    + void Show()
+    + void Hide()
+}
+
+class VRUIInteraction {
+    + void InteractWithUI(UIElement element)
+    + void HighlightElement(UIElement element)
+}
+
+class VRPlayer {
+    + string playerID
+    + Vector3 position
+    + Quaternion rotation
+    + void InteractWithUI(UIElement element)
+}
+
+UIManager "1" -- "*" UIElement : manages
+VRUIInteraction "1" -- "*" UIElement : interacts with
+VRPlayer "1" -- "1" VRUIInteraction : uses
+
+@enduml

@@ -6,6 +6,7 @@
     - **Zowie Crowe (người chơi)**: Là nhân vật chính nhưng cần các NPC khác hỗ trợ đối thoại và quyết định.
     
     **Ước lượng**: 3-5 NPC chính.
+    
     **Tên của NPC:**
 	    **1. Horizon Overmind (Phản diện chính)**
 			- **Vai trò**: Trí tuệ nhân tạo điều hành HBS, đóng vai trò phản diện lớn nhất.
@@ -24,7 +25,7 @@
 			- **Tầm quan trọng**:
 			    - Giao các nhiệm vụ chính và cung cấp thông tin về mục tiêu của The Last Dawn.
 			    - Giúp người chơi định hướng các lựa chọn để đạt Good hoặc Neutral Ending.	
-		4. Dr. Kallan Syndrix (Nhà nghiên cứu Syndraks)**
+		**4. Dr. Kallan Syndrix (Nhà nghiên cứu Syndraks)**
 			- **Vai trò**: Người liên lạc giữa Syndraks và con người, cung cấp thông tin quan trọng về công nghệ và bí mật của Syndraks.
 			- **Tính cách**: Bình tĩnh, thông thái, nhưng ẩn chứa nhiều bí mật.
 			- **Tầm quan trọng**:
@@ -55,6 +56,7 @@
     - **Các thành viên quan trọng của HBS**: Phản diện phụ xuất hiện ở các khu vực khác nhau để giao nhiệm vụ gián tiếp thông qua thách thức hoặc đối thoại.
     
     **Ước lượng**: 5-7 NPC.
+    
 	**Tên của NPC:** 
 	- **Eira Vaughn** - Chiến lược gia cấp cao của The Last Dawn.
 	- **Kael Drax** - Đặc vụ bí mật chuyên thu thập thông tin từ HBS.
@@ -104,6 +106,7 @@
         - Quản trị cấp cao của HBS trong Bad Ending.
     
     **Ước lượng**: 3-5 NPC.
+    
     **Tên cho NPC:**
 	    1. **NPC cho Good Ending** (2 NPC)
 			1.1. **Dr. Erynn Valis**

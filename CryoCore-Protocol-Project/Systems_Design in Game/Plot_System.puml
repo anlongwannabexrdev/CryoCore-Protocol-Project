@@ -1,0 +1,71 @@
+@startuml
+
+class StoryManager {
+    + string currentChapter
+    + string currentBranch
+    + void StartStory()
+    + void ProgressToNextChapter(string choice)
+    + void EndStory()
+}
+
+class Chapter {
+    + string chapterName
+    + List<Branch> branches
+    + string description
+    + void TriggerChapterEvents()
+}
+
+class Branch {
+    + string branchID
+    + string branchName
+    + string condition
+    + List<Quest> linkedQuests
+    + void EvaluateCondition(PlayerStats playerStats)
+    + void ExecuteBranchConsequences()
+}
+
+class Quest {
+    + string questID
+    + string questName
+    + string description
+    + string status // "Not Started", "In Progress", "Completed"
+    + Reward reward
+    + void StartQuest()
+    + void CompleteQuest()
+}
+
+class Reward {
+    + string rewardType // "Weapon", "Skill", "Item"
+    + WeaponData rewardWeapon
+    + string rewardDescription
+    + void GrantReward(Player player)
+}
+
+class PlayerStats {
+    + int moralityScore
+    + int factionReputation
+    + List<string> completedQuests
+}
+
+class DialogueSystem {
+    + void StartDialogue(NPC npc, Branch branch)
+    + void DisplayChoice(List<string> choices)
+    + void RegisterChoice(string choice)
+}
+
+class NPC {
+    + string npcName
+    + string role // "QuestGiver", "StoryTrigger", "Merchant"
+    + void InteractWithPlayer(Player player)
+}
+
+StoryManager "1" -- "*" Chapter : manages
+Chapter "1" -- "*" Branch : contains
+Branch "1" -- "*" Quest : links
+Quest "1" -- "1" Reward : provides
+Branch "*" -- "1" DialogueSystem : triggers
+DialogueSystem "*" -- "1" NPC : interacts
+Branch "1" -- "1" PlayerStats : evaluates
+Reward "*" -- "1" WeaponData : includes
+
+@enduml

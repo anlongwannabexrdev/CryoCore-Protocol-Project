@@ -1,0 +1,54 @@
+@startuml
+
+!define WEAPON_TYPE_ENUM "{Pistol, Sniper, AssaultRifle, Sword}"
+!define WEAPON_RARITY_ENUM "{D, C, B, A, S, X}"
+
+class WeaponData {
+    + string weaponName
+    + Sprite icon
+    + GameObject model
+    + int damage
+    + float fireRate
+    + float range
+    + int ammoCapacity
+    + WEAPON_RARITY_ENUM rarity
+    + string specialAbility
+    + WEAPON_TYPE_ENUM type
+}
+
+class Gun {
+    + WeaponData weaponData
+    + Transform firePoint
+    + GameObject bulletPrefab
+    + void Shoot()
+    + void Reload()
+}
+
+class Sword {
+    + WeaponData weaponData
+    + float attackRadius
+    + void Attack()
+}
+
+class PlayerInventory {
+    + List<WeaponData> ownedWeapons
+    + void AddWeapon(WeaponData weapon)
+    + void RemoveWeapon(WeaponData weapon)
+}
+
+class QuestReward {
+    + WeaponData rewardWeapon
+    + void GrantReward()
+}
+
+class UpgradeSystem {
+    + void UpgradeWeapon(WeaponData weapon, int upgradePoints)
+}
+
+PlayerInventory --* WeaponData : manages
+QuestReward --> WeaponData : rewards
+UpgradeSystem --> WeaponData : upgrades
+Gun --|> WeaponData
+Sword --|> WeaponData
+
+@enduml

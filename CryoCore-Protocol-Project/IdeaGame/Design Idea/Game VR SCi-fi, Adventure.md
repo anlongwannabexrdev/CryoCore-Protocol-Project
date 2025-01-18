@@ -8,6 +8,7 @@
 - [[Player Experience]]
 - [[Multiplayer (In Future)]] 
 - [[SoundTrack]]
+- Có các hệ thống chính trong trò chơi ([[Systems In Game]])
 - Note: 
 	 - Suy nghĩ thêm về ý tưởng thiết kế hệ thống độ khó cho game
 	 - Suy nghĩ thêm về việc thiết kế hệ thống nhiệm vụ thám hiểm các đa vũ trụ và chiến đấu bằng tàu vũ trụ

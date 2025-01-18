@@ -1,0 +1,36 @@
+@startuml
+
+class RewardManager {
+    + List<Reward> availableRewards
+    + void AddReward(Reward reward)
+    + void RemoveReward(Reward reward)
+    + Reward GetRewardByID(string rewardID)
+}
+
+class Reward {
+    + string rewardID
+    + string rewardType // "Weapon", "Item", "Experience", "Currency"
+    + string rewardName
+    + string description
+    + int value
+    + void GrantToPlayer(Player player)
+}
+
+class WeaponReward {
+    + WeaponData weapon
+    + void GrantWeapon(Player player)
+}
+
+class Player {
+    + List<Reward> collectedRewards
+    + int experiencePoints
+    + int currency
+    + void ClaimReward(Reward reward)
+}
+
+RewardManager "1" -- "*" Reward : manages
+Reward "*" --|> WeaponReward : specializes
+Player "1" -- "*" Reward : collects
+Reward "*" -- "1" Player : granted to
+
+@enduml

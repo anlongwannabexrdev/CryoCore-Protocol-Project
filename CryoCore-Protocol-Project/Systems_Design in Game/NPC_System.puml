@@ -1,0 +1,45 @@
+@startuml
+
+class NPCManager {
+    + List<NPC> activeNPCs
+    + void RegisterNPC(NPC npc)
+    + void RemoveNPC(NPC npc)
+    + NPC GetNPCByName(string npcName)
+}
+
+class NPC {
+    + string npcID
+    + string npcName
+    + string role // "QuestGiver", "Merchant", "StoryTrigger"
+    + string dialoguePath
+    + List<Quest> assignedQuests
+    + void Interact(Player player)
+    + void AssignQuest(Quest quest)
+    + void TriggerEvent(Player player)
+}
+
+class DialogueSystem {
+    + void StartDialogue(NPC npc)
+    + void DisplayDialogue(string dialoguePath)
+    + void HandlePlayerChoice(string choice)
+}
+
+class Quest {
+    + string questID
+    + string questName
+    + string status // "Not Started", "In Progress", "Completed"
+}
+
+class Player {
+    + List<Quest> activeQuests
+    + void AcceptQuest(Quest quest)
+    + void InteractWithNPC(NPC npc)
+}
+
+NPCManager "1" -- "*" NPC : manages
+NPC "*" -- "1" DialogueSystem : interacts with
+NPC "*" -- "*" Quest : assigns
+Player "1" -- "*" NPC : interacts
+Player "1" -- "*" Quest : owns
+
+@enduml

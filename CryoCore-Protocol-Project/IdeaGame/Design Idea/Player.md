@@ -36,8 +36,9 @@
     - Một số trang bị đặc biệt từ boss sẽ có **độ bền vô hạn**, nhưng hiếm gặp.
 
 ---
---- 
 ---
+---
+
 ### Có thể làm phần này sau (khi cải thiện được phần cá nhân hóa trong VR)
 ### **4. Thiết Kế Ngoại Hình Nhân Vật**
 

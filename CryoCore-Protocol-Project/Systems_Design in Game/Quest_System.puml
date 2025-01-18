@@ -1,0 +1,51 @@
+@startuml
+
+class QuestManager {
+    + List<Quest> activeQuests
+    + List<Quest> completedQuests
+    + void AddQuest(Quest quest)
+    + void CompleteQuest(Quest quest)
+    + Quest GetQuestByID(string questID)
+}
+
+class Quest {
+    + string questID
+    + string questName
+    + string description
+    + string status // "Not Started", "In Progress", "Completed"
+    + List<Task> tasks
+    + Reward reward
+    + void StartQuest()
+    + void CheckQuestCompletion()
+    + void UpdateTaskStatus(string taskID, string status)
+}
+
+class Task {
+    + string taskID
+    + string description
+    + string status // "Not Started", "In Progress", "Completed"
+    + void MarkAsCompleted()
+}
+
+class Reward {
+    + string rewardType // "Weapon", "Item", "Experience"
+    + WeaponData rewardWeapon
+    + string rewardDescription
+    + void GrantReward(Player player)
+}
+
+class Player {
+    + List<Quest> ownedQuests
+    + List<Reward> collectedRewards
+    + void AcceptQuest(Quest quest)
+    + void ClaimReward(Reward reward)
+}
+
+QuestManager "1" -- "*" Quest : manages
+Quest "1" -- "*" Task : contains
+Quest "1" -- "1" Reward : provides
+Player "1" -- "*" Quest : owns
+Player "1" -- "*" Reward : collects
+Reward "*" -- "1" WeaponData : includes
+
+@enduml

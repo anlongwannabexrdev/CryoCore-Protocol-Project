@@ -1,0 +1,43 @@
+@startuml
+
+class VRManager {
+    + void InitializeVR()
+    + void UpdateVRState()
+    + void ShutdownVR()
+    + VRState currentState
+}
+
+class VRState {
+    + bool isActive
+    + string sceneName
+    + string playerPosition
+    + string controllerStatus
+}
+
+class VRController {
+    + string controllerID
+    + string status // "Connected", "Disconnected"
+    + void Vibrate(int intensity, float duration)
+    + void TrackInput(Player player)
+}
+
+class VRPlayer {
+    + string playerID
+    + Vector3 position
+    + Quaternion rotation
+    + void UpdatePosition(Vector3 newPosition)
+    + void UpdateRotation(Quaternion newRotation)
+}
+
+class VREventSystem {
+    + void RegisterEvent(string eventID, Action eventCallback)
+    + void TriggerEvent(string eventID)
+}
+
+VRManager "1" -- "*" VRState : manages
+VRManager "1" -- "1" VREventSystem : triggers
+VRManager "1" -- "1" VRPlayer : controls
+VRPlayer "1" -- "*" VRController : interacts
+VRController "*" -- "1" VREventSystem : listens
+
+@enduml
