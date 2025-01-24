@@ -8,7 +8,7 @@ Welcome to the Git repository for our game project! This game is set in a futuri
 Before cloning the repository, ensure you have the following software installed:
 
 - [Git](https://git-scm.com/downloads)
-- [Unity](https://unity.com/) (recommended version: Unity 2023.x.x)
+- [Unity](https://unity.com/) (recommended version: Unity 2022.x.x)
 - [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio](https://visualstudio.microsoft.com/fr/) or any C# IDE of your choice
 
 ## Cloning the Repository
