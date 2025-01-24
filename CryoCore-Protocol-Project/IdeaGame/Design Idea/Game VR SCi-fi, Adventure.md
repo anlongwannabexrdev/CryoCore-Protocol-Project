@@ -1,13 +1,12 @@
 - [[Plot]] 
 - Đánh [[Monsters]] vật cày chay để nâng cấp [[Player]] và [[Equipments]]
-- Không gian mở, lấy bối cảnh thám hiểm [[Universe]] bằng [[Spaceship]]
+- [[World System]]
 - Có mạch [[Quest]] chính, mạch mở, những Quest này trực tiếp ảnh hưởng tới quá trình đánh Boss 
 - Có [[Concept Maps]] 
 - Có [[Dialog System]] giữa Player và AI NPC
 - [[Gameplay]]
 - [[Player Experience]]
 - [[Multiplayer (In Future)]] 
-- [[SoundTrack]]
 - Có các hệ thống chính trong trò chơi ([[Systems In Game]])
 - Note: 
 	 - Suy nghĩ thêm về ý tưởng thiết kế hệ thống độ khó cho game

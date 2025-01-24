@@ -1,0 +1,76 @@
+@startuml
+
+package "Leveling Up System" {
+
+class Player {
+    +id: int
+    +name: String
+    +level: int
+    +currentXP: int
+    +maxXP: int
+    +attributes: Map<String, int>
+    +skills: List<Skill>
+    +inventory: Inventory
+    +earnXP(points: int): void
+    +levelUp(): void
+}
+
+class Skill {
+    +id: int
+    +name: String
+    +description: String
+    +levelRequired: int
+    +upgrade(): void
+}
+
+class Reward {
+    +id: int
+    +type: String
+    +value: int
+    +description: String
+}
+
+class Enemy {
+    +id: int
+    +name: String
+    +level: int
+    +xpReward: int
+    +dropLoot(): Reward
+}
+
+class Inventory {
+    +items: List<Item>
+    +addItem(item: Item): void
+    +removeItem(item: Item): void
+}
+
+class Item {
+    +id: int
+    +name: String
+    +type: String
+    +rarity: String
+}
+
+class LevelCurve {
+    +level: int
+    +xpRequired: int
+    calculateNextLevelXP(level: int): int
+}
+
+Player --> "has" Skill : "skills"
+Player --> "owns" Inventory : "inventory"
+Player --> LevelCurve : "level progression"
+Inventory --> "contains" Item : "items"
+Enemy --> Reward : "drops"
+Player --> Reward : "receives"
+
+interface LevelingSystem {
+    +earnXP(player: Player, points: int): void
+    +levelUp(player: Player): void
+}
+
+Player --|> LevelingSystem
+
+}
+
+@enduml

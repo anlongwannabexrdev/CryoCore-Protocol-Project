@@ -1,0 +1,105 @@
+@startuml
+
+package "Game Systems" {
+
+    package "Player Experience" {
+        class Player {
+            + string playerName
+            + int level
+            + void InteractWithNPC(NPC npc)
+            + void AcceptQuest(Quest quest)
+        }
+    }
+
+    package "Weapons System" {
+        class Weapon {
+            + string weaponName
+            + int damage
+            + float range
+            + WEAPON_TYPE type
+            + WEAPON_RARITY rarity
+        }
+
+        class Guns {
+            + int ammoCapacity
+            + void Shoot()
+            + void Reload()
+        }
+
+        class Swords {
+            + float durability
+            + void Swing()
+            + void Parry()
+        }
+
+        Weapon <|-- Guns
+        Weapon <|-- Swords
+    }
+
+    package "Quest System" {
+        class Quest {
+            + string questName
+            + string description
+            + QuestReward reward
+            + void StartQuest()
+            + void CompleteQuest()
+        }
+
+        class QuestReward {
+            + string rewardType
+            + int rewardValue
+            + void GrantReward(Player player)
+        }
+
+        Quest o-- QuestReward
+    }
+
+    package "NPC System" {
+        class NPC {
+            + string npcName
+            + string role // Merchant, Quest Giver, Enemy
+            + void Speak()
+            + void GiveQuest(Quest quest)
+        }
+
+        NPC -- Quest
+        NPC -- Player
+    }
+
+    package "Dialog System" {
+        class Dialog {
+            + string[] dialogLines
+            + void StartDialog(NPC npc, Player player)
+            + void EndDialog()
+        }
+
+        Dialog -- NPC
+        Dialog -- Player
+    }
+
+    package "Reward System" {
+        class RewardManager {
+            + void AddGold(Player player, int amount)
+            + void AddWeapon(Player player, Weapon weapon)
+            + void AddExperience(Player player, int exp)
+        }
+
+        RewardManager -- Player
+        RewardManager -- Weapon
+    }
+
+    package "Support Systems" {
+        class Spaceship {
+            + string spaceshipName
+            + void TravelTo(string destination)
+        }
+
+        class Soundtrack {
+            + void PlayTrack(string trackName)
+            + void StopTrack()
+        }
+    }
+
+}
+
+@enduml

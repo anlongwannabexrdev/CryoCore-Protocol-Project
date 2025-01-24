@@ -1,6 +1,6 @@
 ### **1. Loại Dialog System**
 
-#### a. **Branching Dialog System (Hệ thống hội thoại phân nhánh)** (Ưu tiên lựa chọn này)
+#### a. **Branching Dialog System (Hệ thống hội thoại phân nhánh)** (Ưu tiên lựa chọn này) 
 
 Người chơi có thể chọn các tùy chọn khác nhau trong hội thoại, dẫn đến các phản hồi hoặc kết quả khác nhau. Điều này phù hợp để:
 
@@ -8,6 +8,7 @@ Người chơi có thể chọn các tùy chọn khác nhau trong hội thoại,
 - Tạo cảm giác nhập vai sâu sắc hơn.
 - Mở khóa hoặc đóng lại các nhánh câu chuyện tùy vào hành động của người chơi.
 
+ **Note Link Ink Unity Integration trên Unity Asset Store:** https://assetstore.unity.com/packages/tools/integration/ink-integration-for-unity-60055 
 #### b. **Linear Dialog System (Hệ thống hội thoại tuyến tính)**
 
 Các hội thoại diễn ra theo một trình tự cố định, thường dùng trong các phân đoạn cốt truyện quan trọng hoặc khi cần truyền tải nội dung chính xác.
