@@ -1,0 +1,23 @@
+@startuml
+
+actor Player as "Người chơi"
+actor "Quest System" as System
+actor NPCs as "Nhân vật NPC"
+
+usecase "Accept Quest" as UC1
+usecase "Perform Objectives" as UC2
+usecase "Submit Quest" as UC3
+usecase "Receive Rewards" as UC4
+
+Player --> UC1 : "Nhận nhiệm vụ"
+Player --> UC2 : "Thực hiện nhiệm vụ"
+Player --> UC3 : "Hoàn thành nhiệm vụ"
+Player --> UC4 : "Nhận phần thưởng"
+
+System --> UC1 : "Cung cấp nhiệm vụ"
+System --> UC4 : "Cấp phần thưởng"
+
+NPCs --> UC1 : "Giao nhiệm vụ"
+NPCs --> UC3 : "Nhận nhiệm vụ đã hoàn thành"
+
+@enduml

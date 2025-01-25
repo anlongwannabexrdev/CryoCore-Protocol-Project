@@ -17,6 +17,8 @@ Zowie và nhóm của anh sẽ phải **đột nhập vào các cơ sở của H
 
 Trong hành trình, Zowie sẽ phải đối mặt với các **thực thể ngoài hành tinh** biến hình, những sinh vật có khả năng **tái tạo** và **phát triển vượt ngoài tầm kiểm soát**. Anh sẽ gặp phải những **quái vật khổng lồ**, những sinh vật có **quyền năng** vượt trội, cũng như những **sinh vật bị nhiễm bệnh** và **biến dạng** vì công nghệ xâm lấn của The Syndraks.
 
+[[Detail Plot]]
+
 **Mối Quan Hệ và Quyết Định**:
 
 - **Horizon Bio Synthetik**: Zowie sẽ phải đối mặt với các **tổ chức phản bội** và những người từng là đồng đội của anh trong tổ chức HBS. Liệu anh có thể thuyết phục họ từ bỏ con đường sai lầm và cùng nhau đánh bại các sinh vật ngoài hành tinh, hay liệu họ sẽ tiếp tục theo đuổi mục tiêu?
